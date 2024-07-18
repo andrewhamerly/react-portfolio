@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0F1808; /* Night */
+    color: #FBFCFF; /* White */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #29252D; /* Raisin Black */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #29252D; /* Raisin Black */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: #652D90; /* Andrew Purple */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #D0CCD0; /* French Gray */
+}
+
+.mx-3 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
