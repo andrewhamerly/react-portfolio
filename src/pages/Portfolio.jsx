@@ -1,13 +1,28 @@
-export default function Portfolio() {
+import './Portfolio.css';
+
+const Portfolio = () => {
+    const projects = [
+        { title: "Project 1", imageUrl: "path/to/image1.jpg", liveLink: "https://live1.com", repoLink: "https://github.com/repo1" },
+        { title: "Project 2", imageUrl: "path/to/image1.jpg", liveLink: "https://live1.com", repoLink: "https://github.com/repo1" },
+        { title: "Project 3", imageUrl: "path/to/image1.jpg", liveLink: "https://live1.com", repoLink: "https://github.com/repo1" },
+        { title: "Project 4", imageUrl: "path/to/image1.jpg", liveLink: "https://live1.com", repoLink: "https://github.com/repo1" },
+        { title: "Project 5", imageUrl: "path/to/image1.jpg", liveLink: "https://live1.com", repoLink: "https://github.com/repo1" },
+        { title: "Project 6", imageUrl: "path/to/image1.jpg", liveLink: "https://live1.com", repoLink: "https://github.com/repo1" },
+        // Add 5 more projects
+    ];
+
     return (
-      <div>
-        <h1>Portfolio Page</h1>
-        <p>
-          This is a page filled with 6 full-stack dev projects.
-        </p>
-        <p>
-          This page also features my top 3 Wordpress website projects with a link to my WordPress agency website.
-        </p>
-      </div>
+        <div className="portfolio">
+            {projects.map((project, index) => (
+                <div className="project" key={index}>
+                    <img src={project.imageUrl} alt={project.title} />
+                    <h3>{project.title}</h3>
+                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
+                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                </div>
+            ))}
+        </div>
     );
-  }
+}
+
+export default Portfolio;

@@ -19,6 +19,11 @@ const Footer = () => {
                     <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
                     <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
+                <h3>
+                Source code is licensed under the MIT license.<br/>
+                Contents of this site are Copyright © 2024 by Andrew Hamerly.<br/>
+                All Content Rights Reserved.
+                </h3>
             </div>
         </footer>
     );
