@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Verdana', sans-serif;
     background-color: #0F1808; /* Night */
     color: #FBFCFF; /* White */
     margin: 0;
@@ -7,21 +7,8 @@ body {
 }
 
 main {
-    padding: 20px;
-    max-width: 1200px;
+    padding: 40px;
     margin: 0 auto;
-    background-color: #29252D; /* Raisin Black */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-footer {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #29252D; /* Raisin Black */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -34,7 +21,84 @@ a:hover {
     color: #D0CCD0; /* French Gray */
 }
 
-.mx-3 {
-    margin-left: 16px;
-    margin-right: 16px;
+.about-me {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bio-title {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.bio {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.profile-photo {
+    border-radius: 100px;
+    border: 3px solid #0f1808;
+}
+
+/* CSS Styles for the Projects found in Portfolio Page */
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project .links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.project:hover .links {
+    opacity: 1;
+}
+
+.project .links a {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.live-demo {
+    background-color: #652D90;
+    color: white;
+}
+
+.live-demo:hover {
+    background-color: #96909b;
+}
+
+.github-repo {
+    background-color: #2D5890;
+    color: white;
+}
+
+.github-repo:hover {
+    background-color: #96909b;
 }

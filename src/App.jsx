@@ -6,11 +6,13 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
+      <header>
       <Header />
-      <main className="mx-3">
+      </header>
+      <main>
         <Outlet />
       </main>
-      <footer className="mx-3">
+      <footer>
         <Footer />
       </footer>
     </>
