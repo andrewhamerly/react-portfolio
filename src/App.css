@@ -102,3 +102,10 @@ a:hover {
 .github-repo:hover {
     background-color: #96909b;
 }
+
+/* CSS Styles found in Resume Page */
+.resumebtn {
+    padding: 30px;
+    background-color: #652D90;
+    color: white;
+}
