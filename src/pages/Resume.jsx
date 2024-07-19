@@ -31,6 +31,23 @@ const Resume = () => {
     return (
         <div className="row">
             <div className="container">
+                <div>
+                    <h2>
+                    PROFESSIONAL EXPERIENCE
+                    </h2>
+                    <br/>
+                    <h4>
+                    Freelance Website Development, SEO, and Email Marketing
+                    </h4>
+                    <br/>
+                    <p>
+                    October 2018 - Present
+                    <br/>
+                    <span className="employment-italic">Self-Employed, Cleveland, OH</span>
+                    <br/>
+                    Created over 15 client websites for small business, retail, and E-commerce brands. Currently, maintain and update 10 client WordPress websites with security and performance best practices.
+                    </p>
+                </div>
                 <div className="resume">
                     <a className="resumebtn btn m-2" href="src/assets/Andrew-Hamerly-Resume-2024.pdf" download>Download Resume</a>
                 </div>

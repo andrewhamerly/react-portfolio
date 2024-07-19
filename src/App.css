@@ -109,3 +109,7 @@ a:hover {
     background-color: #652D90;
     color: white;
 }
+
+.employment-italic {
+    font-style: italic;
+}
