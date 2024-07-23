@@ -110,6 +110,10 @@ a:hover {
     color: white;
 }
 
+.downloadbtn {
+    padding: 30px;
+}
+
 .employment-italic {
     font-style: italic;
 }
@@ -140,22 +144,38 @@ aside ul li {
 .button-section {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-}
-
-.btn-andrew-purple {
-    background-color: #6A0DAD; /* Replace with the hex code for andrew purple */
-    color: white;
-    border: none;
-}
-
-.btn-andrew-purple:hover {
-    background-color: #5A0BA0; /* Slightly darker shade for hover effect */
-    color: white;
 }
 
 @media (max-width: 991px) {
     .row > div {
         margin-bottom: 20px;
     }
+}
+
+/* CSS Styles found in Contact Page */
+.contact-form .form-label {
+    font-weight: bold;
+}
+
+.contact-form .form-control {
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.contact-form .error {
+    margin-top: 0.25rem;
+}
+
+.btn-contact {
+    background-color: #652D90;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+}
+
+.btn-contact:hover {
+    background-color: #5A0BA0;
+    color: white;
 }
