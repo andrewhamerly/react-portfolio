@@ -1,7 +1,9 @@
+import AndrewCloseup from '../assets/images/Andrew-Closeup.jpeg'
+
 const AboutMe = () => {
     return (
         <div className="about-me">
-            <img src="src/assets/images/Andrew-Closeup.jpeg" alt="Andrew Hamerly Full Stack JavaScript Developer" className="profile-photo" />
+            <img src={AndrewCloseup} alt="Andrew Hamerly Full Stack JavaScript Developer" className="profile-photo" />
             <h2 className="bio-title">
                 Hi, I am Andrew.
             </h2>
