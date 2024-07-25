@@ -1,4 +1,4 @@
-# react-portfolio
+# Andrew React Portfolio
 
 This repository contains the implementation of my web developer portfolio built using React. The portfolio showcases my recent projects, skills, and provides a way to contact me.
 
@@ -14,9 +14,9 @@ This repository contains the implementation of my web developer portfolio built 
 ## Features
 
 - **Header**: Displays my name and navigation links to different sections of the portfolio.
-- **About Me**: Contains a recent photo or avatar and a short bio about me.
-- **Portfolio**: Showcases six of my projects with titles, images, and links to both the deployed applications and their corresponding GitHub repositories.
-- **Resume**: Provides a link to download my resume and a list of my proficiencies.
+- **About Me**: Contains a recent photo and a short bio about me.
+- **Portfolio**: Showcases my recent projects with titles, images, and links to both the deployed applications and their corresponding GitHub repositories.
+- **Resume**: Provides a link to download my resume and a list of my tech and soft skills along with professional expereince and education information.
 - **Contact**: Includes a contact form with fields for a name, email address, and message, with validation to ensure all fields are filled out correctly.
 - **Footer**: Contains links to my GitHub, LinkedIn, and Stack Overflow profiles.
 
