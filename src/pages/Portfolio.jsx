@@ -1,11 +1,18 @@
+import AHPortfolioImage from '../assets/images/AH-portfolio-image.png';
+import goldenHours from '../assets/images/golden-hours.png';
+import flavorSavor from '../assets/images/Flavor-Saver-Hero-Image.png';
+import weather from '../assets/images/weather-dashboard.png';
+import blog from '../assets/images/blog-example-image.png';
+import noteTaker from '../assets/images/note-taker.png';
+
 const Portfolio = () => {
     const projects = [
-        { title: "HTML/CSS Portfolio", imageUrl: "src/assets/images/AH-portfolio-image.png", liveLink: "https://andrewhamerly.github.io/portfolio/", repoLink: "https://github.com/andrewhamerly/portfolio" },
-        { title: "Chasing the Golden Hours - FrontEnd App", imageUrl: "src/assets/images/golden-hours.png", liveLink: "https://andrewhamerly.github.io/ChasingtheGoldenHours/", repoLink: "https://github.com/andrewhamerly/ChasingtheGoldenHours" },
-        { title: "Flavor Savor - Full Stack App", imageUrl: "src/assets/images/Flavor-Saver-Hero-Image.png", liveLink: "https://flavor-saver.onrender.com/", repoLink: "https://github.com/andrewhamerly/flavor-saver" },
-        { title: "Weather API Dashboard", imageUrl: "src/assets/images/weather-dashboard.png", liveLink: "https://andrewhamerly.github.io/weather-dashboard/", repoLink: "https://github.com/andrewhamerly/weather-dashboard" },
-        { title: "LocalStorage Blog", imageUrl: "src/assets/images/blog-example-image.png", liveLink: "https://andrewhamerly.github.io/blog/", repoLink: "https://github.com/andrewhamerly/blog" },
-        { title: "Note Taker JavaScript App", imageUrl: "src/assets/images/note-taker.png", liveLink: "https://note-taker-bxn1.onrender.com/", repoLink: "https://github.com/andrewhamerly/note-taker" }
+        { title: "HTML/CSS Portfolio", imageUrl: AHPortfolioImage, liveLink: "https://andrewhamerly.github.io/portfolio/", repoLink: "https://github.com/andrewhamerly/portfolio" },
+        { title: "Chasing the Golden Hours - FrontEnd App", imageUrl: goldenHours, liveLink: "https://andrewhamerly.github.io/ChasingtheGoldenHours/", repoLink: "https://github.com/andrewhamerly/ChasingtheGoldenHours" },
+        { title: "Flavor Savor - Full Stack App", imageUrl: flavorSavor, liveLink: "https://flavor-saver.onrender.com/", repoLink: "https://github.com/andrewhamerly/flavor-saver" },
+        { title: "Weather API Dashboard", imageUrl: weather, repoLink: "https://github.com/andrewhamerly/weather-dashboard" },
+        { title: "LocalStorage Blog", imageUrl: blog, liveLink: "https://andrewhamerly.github.io/blog/", repoLink: "https://github.com/andrewhamerly/blog" },
+        { title: "Note Taker JavaScript App", imageUrl: noteTaker, liveLink: "https://note-taker-bxn1.onrender.com/", repoLink: "https://github.com/andrewhamerly/note-taker" }
     ];
 
     return (
